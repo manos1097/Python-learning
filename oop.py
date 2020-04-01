@@ -41,7 +41,7 @@ class Account():
         print(f'Current balance is: {self.balance}')
 
 bankAccounts = BankAccounts()
-bankAccounts.addAccount('Manolis', 'Zaimakis', 5000)
-bankAccounts.addAccount('Giannis', 'Zaimakis', 4000)
-bankAccounts.addAccount('Fotini', 'Brachou', 6000)
+bankAccounts.addAccount('Manolis', 'Z', 5000)
+bankAccounts.addAccount('Giannis', 'Z', 4000)
+bankAccounts.addAccount('Fotini', 'B', 6000)
 bankAccounts.showAccounts()
